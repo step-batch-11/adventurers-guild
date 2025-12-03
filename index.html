@@ -4,6 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Advent of Code 2019 - Guild Leaderboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="static/css/style.css">
 </head>
 <body>
@@ -14,934 +17,1784 @@
       <p class="subtitle">Where brave souls compete for glory and stars</p>
     </header>
 
-    <div class="leaderboard">
-      <table>
-        <thead>
-          <tr>
-            <th>Rank</th>
-            <th>Adventurer</th>
-            <th>Title</th>
-            <th>Stars</th>
-            <th>Score</th>
-            <th>Badges</th>
-          </tr>
-        </thead>
-        <tbody>
+    <div class="leaderboard-grid">
+      
+      <div class="card" data-rank="1" data-id="829678">
+        <div class="card-rank">
+          🥇
           
-          <tr class="rank-1">
-            <td class="rank">
-              🥇
-              
-            </td>
-            <td class="name">
-              <a href="profiles/829678.html">Srijayanth</a>
-            </td>
-            <td class="title">Champion of the Guild</td>
-            <td class="stars">⭐ 29</td>
-            <td class="score">1595</td>
-            <td class="badges">
-              
-              <span class="badge" title="A streak of unbroken valor across 5 frost-bitten days">🔥</span>
-              
-              <span class="badge" title="Completed both stars within 30 minutes of each other">⚡</span>
-              
-              <span class="badge" title="Completed challenges in the dead of night (12am-5am IST)">🦉</span>
-              
-            </td>
-          </tr>
+        </div>
+        
+        <div class="card-name">
+          <a href="profiles/829678.html">Srijayanth</a>
+        </div>
+        
+        <div class="card-stats">
+          <div class="stat">
+            <span class="stat-value">29</span>
+            <span class="stat-label">STARS</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">1653</span>
+            <span class="stat-label">SCORE</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">1</span>
+            <span class="stat-label">LEVEL</span>
+          </div>
+        </div>
+        
+        <div class="card-badges">
           
-          <tr class="rank-2">
-            <td class="rank">
-              🥈
-              
-            </td>
-            <td class="name">
-              <a href="profiles/5363592.html">Sagnik</a>
-            </td>
-            <td class="title">First Knight</td>
-            <td class="stars">⭐ 4</td>
-            <td class="score">212</td>
-            <td class="badges">
-              
-              <span class="badge" title="Completed both stars on every day attempted">✨</span>
-              
-              <span class="badge" title="Completed both stars within 30 minutes of each other">⚡</span>
-              
-            </td>
-          </tr>
+          <span class="badge-icon" title="A streak of unbroken valor across 5 frost-bitten days">🔥</span>
           
-          <tr class="rank-3">
-            <td class="rank">
-              🥉
-              
-            </td>
-            <td class="name">
-              <a href="profiles/5364970.html">Himanshu</a>
-            </td>
-            <td class="title">Keeper of the Flame</td>
-            <td class="stars">⭐ 4</td>
-            <td class="score">206</td>
-            <td class="badges">
-              
-              <span class="badge" title="Completed both stars on every day attempted">✨</span>
-              
-            </td>
-          </tr>
+          <span class="badge-icon" title="Completed both stars within 30 minutes of each other">⚡</span>
           
-          <tr class="rank-4">
-            <td class="rank">
-              4
-              
-            </td>
-            <td class="name">
-              <a href="profiles/5366372.html">Deepak</a>
-            </td>
-            <td class="title">Initiate of the Guild</td>
-            <td class="stars">⭐ 4</td>
-            <td class="score">206</td>
-            <td class="badges">
-              
-              <span class="badge" title="Completed both stars on every day attempted">✨</span>
-              
-              <span class="badge" title="Completed both stars within 30 minutes of each other">⚡</span>
-              
-            </td>
-          </tr>
+          <span class="badge-icon" title="Completed challenges in the dead of night (12am-5am IST)">🦉</span>
           
-          <tr class="rank-5">
-            <td class="rank">
-              5
-              
-            </td>
-            <td class="name">
-              <a href="profiles/5370327.html">Hem Pradeep</a>
-            </td>
-            <td class="title">Initiate of the Guild</td>
-            <td class="stars">⭐ 3</td>
-            <td class="score">150</td>
-            <td class="badges">
-              
-            </td>
-          </tr>
+        </div>
+      </div>
+      
+      <div class="card" data-rank="2" data-id="5363592">
+        <div class="card-rank">
+          🥈
           
-          <tr class="rank-6">
-            <td class="rank">
-              6
-              
-            </td>
-            <td class="name">
-              <a href="profiles/5388127.html">Lavkush</a>
-            </td>
-            <td class="title">Initiate of the Guild</td>
-            <td class="stars">⭐ 3</td>
-            <td class="score">145</td>
-            <td class="badges">
-              
-              <span class="badge" title="Completed both stars within 30 minutes of each other">⚡</span>
-              
-            </td>
-          </tr>
+        </div>
+        
+        <div class="card-name">
+          <a href="profiles/5363592.html">Sagnik</a>
+        </div>
+        
+        <div class="card-stats">
+          <div class="stat">
+            <span class="stat-value">4</span>
+            <span class="stat-label">STARS</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">220</span>
+            <span class="stat-label">SCORE</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">2</span>
+            <span class="stat-label">LEVEL</span>
+          </div>
+        </div>
+        
+        <div class="card-badges">
           
-          <tr class="rank-7">
-            <td class="rank">
-              7
-              
-            </td>
-            <td class="name">
-              <a href="profiles/5366843.html">Javed</a>
-            </td>
-            <td class="title">Initiate of the Guild</td>
-            <td class="stars">⭐ 3</td>
-            <td class="score">142</td>
-            <td class="badges">
-              
-              <span class="badge" title="Completed both stars within 30 minutes of each other">⚡</span>
-              
-            </td>
-          </tr>
+          <span class="badge-icon" title="Completed both stars on every day attempted">✨</span>
           
-          <tr class="rank-8">
-            <td class="rank">
-              8
-              
-            </td>
-            <td class="name">
-              <a href="profiles/5388598.html">Nikhil</a>
-            </td>
-            <td class="title">Initiate of the Guild</td>
-            <td class="stars">⭐ 3</td>
-            <td class="score">137</td>
-            <td class="badges">
-              
-              <span class="badge" title="Completed both stars within 30 minutes of each other">⚡</span>
-              
-            </td>
-          </tr>
+          <span class="badge-icon" title="Completed both stars within 30 minutes of each other">⚡</span>
           
-          <tr class="rank-9">
-            <td class="rank">
-              9
-              
-            </td>
-            <td class="name">
-              <a href="profiles/5388622.html">Pradipta</a>
-            </td>
-            <td class="title">Initiate of the Guild</td>
-            <td class="stars">⭐ 3</td>
-            <td class="score">136</td>
-            <td class="badges">
-              
-              <span class="badge" title="Completed both stars within 30 minutes of each other">⚡</span>
-              
-            </td>
-          </tr>
+        </div>
+      </div>
+      
+      <div class="card" data-rank="3" data-id="5364970">
+        <div class="card-rank">
+          🥉
           
-          <tr class="rank-10">
-            <td class="rank">
-              10
-              
-            </td>
-            <td class="name">
-              <a href="profiles/5368411.html">Paulami</a>
-            </td>
-            <td class="title">Initiate of the Guild</td>
-            <td class="stars">⭐ 2</td>
-            <td class="score">92</td>
-            <td class="badges">
-              
-              <span class="badge" title="Completed both stars on every day attempted">✨</span>
-              
-            </td>
-          </tr>
+        </div>
+        
+        <div class="card-name">
+          <a href="profiles/5364970.html">Himanshu</a>
+        </div>
+        
+        <div class="card-stats">
+          <div class="stat">
+            <span class="stat-value">4</span>
+            <span class="stat-label">STARS</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">214</span>
+            <span class="stat-label">SCORE</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">3</span>
+            <span class="stat-label">LEVEL</span>
+          </div>
+        </div>
+        
+        <div class="card-badges">
           
-          <tr class="rank-11">
-            <td class="rank">
-              11
-              
-            </td>
-            <td class="name">
-              <a href="profiles/5388300.html">SIRI</a>
-            </td>
-            <td class="title">Initiate of the Guild</td>
-            <td class="stars">⭐ 2</td>
-            <td class="score">88</td>
-            <td class="badges">
-              
-              <span class="badge" title="Completed both stars on every day attempted">✨</span>
-              
-            </td>
-          </tr>
+          <span class="badge-icon" title="Completed both stars on every day attempted">✨</span>
           
-          <tr class="rank-12">
-            <td class="rank">
-              12
-              
-            </td>
-            <td class="name">
-              <a href="profiles/5388710.html">Ibrahim</a>
-            </td>
-            <td class="title">Initiate of the Guild</td>
-            <td class="stars">⭐ 2</td>
-            <td class="score">83</td>
-            <td class="badges">
-              
-              <span class="badge" title="Completed both stars on every day attempted">✨</span>
-              
-              <span class="badge" title="Completed both stars within 30 minutes of each other">⚡</span>
-              
-            </td>
-          </tr>
+        </div>
+      </div>
+      
+      <div class="card" data-rank="4" data-id="5366372">
+        <div class="card-rank">
+          #4
           
-          <tr class="rank-13">
-            <td class="rank">
-              13
-              
-            </td>
-            <td class="name">
-              <a href="profiles/5388812.html">Gopi</a>
-            </td>
-            <td class="title">Initiate of the Guild</td>
-            <td class="stars">⭐ 2</td>
-            <td class="score">81</td>
-            <td class="badges">
-              
-              <span class="badge" title="Completed both stars on every day attempted">✨</span>
-              
-              <span class="badge" title="Completed both stars within 30 minutes of each other">⚡</span>
-              
-            </td>
-          </tr>
+        </div>
+        
+        <div class="card-name">
+          <a href="profiles/5366372.html">Deepak</a>
+        </div>
+        
+        <div class="card-stats">
+          <div class="stat">
+            <span class="stat-value">4</span>
+            <span class="stat-label">STARS</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">214</span>
+            <span class="stat-label">SCORE</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">4</span>
+            <span class="stat-label">LEVEL</span>
+          </div>
+        </div>
+        
+        <div class="card-badges">
           
-          <tr class="rank-14">
-            <td class="rank">
-              14
-              
-            </td>
-            <td class="name">
-              <a href="profiles/5388599.html">Rahul</a>
-            </td>
-            <td class="title">Initiate of the Guild</td>
-            <td class="stars">⭐ 2</td>
-            <td class="score">81</td>
-            <td class="badges">
-              
-              <span class="badge" title="Completed both stars on every day attempted">✨</span>
-              
-            </td>
-          </tr>
+          <span class="badge-icon" title="Completed both stars on every day attempted">✨</span>
           
-          <tr class="rank-15">
-            <td class="rank">
-              15
-              
-            </td>
-            <td class="name">
-              <a href="profiles/5368887.html">Rafiya</a>
-            </td>
-            <td class="title">Initiate of the Guild</td>
-            <td class="stars">⭐ 2</td>
-            <td class="score">81</td>
-            <td class="badges">
-              
-              <span class="badge" title="Completed both stars on every day attempted">✨</span>
-              
-            </td>
-          </tr>
+          <span class="badge-icon" title="Completed both stars within 30 minutes of each other">⚡</span>
           
-          <tr class="rank-16">
-            <td class="rank">
-              16
-              
-            </td>
-            <td class="name">
-              <a href="profiles/5388792.html">Vikas</a>
-            </td>
-            <td class="title">Initiate of the Guild</td>
-            <td class="stars">⭐ 2</td>
-            <td class="score">71</td>
-            <td class="badges">
-              
-              <span class="badge" title="Completed both stars on every day attempted">✨</span>
-              
-              <span class="badge" title="Completed both stars within 30 minutes of each other">⚡</span>
-              
-            </td>
-          </tr>
+        </div>
+      </div>
+      
+      <div class="card" data-rank="5" data-id="5370327">
+        <div class="card-rank">
+          #5
           
-          <tr class="rank-17">
-            <td class="rank">
-              17
-              
-            </td>
-            <td class="name">
-              <a href="profiles/5386456.html">Haider</a>
-            </td>
-            <td class="title">Initiate of the Guild</td>
-            <td class="stars">⭐ 1</td>
-            <td class="score">49</td>
-            <td class="badges">
-              
-            </td>
-          </tr>
+        </div>
+        
+        <div class="card-name">
+          <a href="profiles/5370327.html">Hem Pradeep</a>
+        </div>
+        
+        <div class="card-stats">
+          <div class="stat">
+            <span class="stat-value">4</span>
+            <span class="stat-label">STARS</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">208</span>
+            <span class="stat-label">SCORE</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">5</span>
+            <span class="stat-label">LEVEL</span>
+          </div>
+        </div>
+        
+        <div class="card-badges">
           
-          <tr class="rank-18">
-            <td class="rank">
-              18
-              
-            </td>
-            <td class="name">
-              <a href="profiles/5388814.html">Nitesh</a>
-            </td>
-            <td class="title">Initiate of the Guild</td>
-            <td class="stars">⭐ 1</td>
-            <td class="score">38</td>
-            <td class="badges">
-              
-            </td>
-          </tr>
+          <span class="badge-icon" title="Completed both stars on every day attempted">✨</span>
           
-          <tr class="rank-19">
-            <td class="rank">
-              19
-              
-            </td>
-            <td class="name">
-              <a href="profiles/5368028.html">Shivang</a>
-            </td>
-            <td class="title">Initiate of the Guild</td>
-            <td class="stars">⭐ 1</td>
-            <td class="score">37</td>
-            <td class="badges">
-              
-            </td>
-          </tr>
+        </div>
+      </div>
+      
+      <div class="card" data-rank="6" data-id="5388127">
+        <div class="card-rank">
+          #6
           
-          <tr class="rank-20">
-            <td class="rank">
-              20
-              
-            </td>
-            <td class="name">
-              <a href="profiles/5388618.html">Nandini</a>
-            </td>
-            <td class="title">Initiate of the Guild</td>
-            <td class="stars">⭐ 1</td>
-            <td class="score">36</td>
-            <td class="badges">
-              
-            </td>
-          </tr>
+        </div>
+        
+        <div class="card-name">
+          <a href="profiles/5388127.html">Lavkush</a>
+        </div>
+        
+        <div class="card-stats">
+          <div class="stat">
+            <span class="stat-value">3</span>
+            <span class="stat-label">STARS</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">151</span>
+            <span class="stat-label">SCORE</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">6</span>
+            <span class="stat-label">LEVEL</span>
+          </div>
+        </div>
+        
+        <div class="card-badges">
           
-          <tr class="rank-21">
-            <td class="rank">
-              21
-              
-            </td>
-            <td class="name">
-              <a href="profiles/5388498.html">Sidhartha</a>
-            </td>
-            <td class="title">Initiate of the Guild</td>
-            <td class="stars">⭐ 1</td>
-            <td class="score">35</td>
-            <td class="badges">
-              
-            </td>
-          </tr>
+          <span class="badge-icon" title="Completed both stars within 30 minutes of each other">⚡</span>
           
-          <tr class="rank-22">
-            <td class="rank">
-              22
-              
-            </td>
-            <td class="name">
-              <a href="profiles/5368329.html">Haji</a>
-            </td>
-            <td class="title">Initiate of the Guild</td>
-            <td class="stars">⭐ 1</td>
-            <td class="score">34</td>
-            <td class="badges">
-              
-            </td>
-          </tr>
+        </div>
+      </div>
+      
+      <div class="card" data-rank="7" data-id="5366843">
+        <div class="card-rank">
+          #7
           
-          <tr class="rank-23">
-            <td class="rank">
-              23
-              
-            </td>
-            <td class="name">
-              <a href="profiles/5385856.html">Dilli</a>
-            </td>
-            <td class="title">Initiate of the Guild</td>
-            <td class="stars">⭐ 1</td>
-            <td class="score">33</td>
-            <td class="badges">
-              
-            </td>
-          </tr>
+        </div>
+        
+        <div class="card-name">
+          <a href="profiles/5366843.html">Javed</a>
+        </div>
+        
+        <div class="card-stats">
+          <div class="stat">
+            <span class="stat-value">3</span>
+            <span class="stat-label">STARS</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">148</span>
+            <span class="stat-label">SCORE</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">7</span>
+            <span class="stat-label">LEVEL</span>
+          </div>
+        </div>
+        
+        <div class="card-badges">
           
-          <tr class="rank-24">
-            <td class="rank">
-              24
-              
-            </td>
-            <td class="name">
-              <a href="profiles/5388833.html">Oiendrila</a>
-            </td>
-            <td class="title">Initiate of the Guild</td>
-            <td class="stars">⭐ 1</td>
-            <td class="score">32</td>
-            <td class="badges">
-              
-            </td>
-          </tr>
+          <span class="badge-icon" title="Completed both stars within 30 minutes of each other">⚡</span>
           
-          <tr class="rank-25">
-            <td class="rank">
-              25
-              
-            </td>
-            <td class="name">
-              <a href="profiles/5388847.html">Sivaji</a>
-            </td>
-            <td class="title">Initiate of the Guild</td>
-            <td class="stars">⭐ 1</td>
-            <td class="score">31</td>
-            <td class="badges">
-              
-            </td>
-          </tr>
+        </div>
+      </div>
+      
+      <div class="card" data-rank="8" data-id="5388598">
+        <div class="card-rank">
+          #8
           
-          <tr class="rank-26">
-            <td class="rank">
-              26
-              
-            </td>
-            <td class="name">
-              <a href="profiles/5388593.html">Karthik</a>
-            </td>
-            <td class="title">Initiate of the Guild</td>
-            <td class="stars">⭐ 1</td>
-            <td class="score">30</td>
-            <td class="badges">
-              
-            </td>
-          </tr>
+        </div>
+        
+        <div class="card-name">
+          <a href="profiles/5388598.html">Nikhil</a>
+        </div>
+        
+        <div class="card-stats">
+          <div class="stat">
+            <span class="stat-value">3</span>
+            <span class="stat-label">STARS</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">143</span>
+            <span class="stat-label">SCORE</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">8</span>
+            <span class="stat-label">LEVEL</span>
+          </div>
+        </div>
+        
+        <div class="card-badges">
           
-          <tr class="rank-27">
-            <td class="rank">
-              27
-              
-            </td>
-            <td class="name">
-              <a href="profiles/5371344.html">Adithyan</a>
-            </td>
-            <td class="title">Initiate of the Guild</td>
-            <td class="stars">⭐ 1</td>
-            <td class="score">29</td>
-            <td class="badges">
-              
-            </td>
-          </tr>
+          <span class="badge-icon" title="Completed both stars within 30 minutes of each other">⚡</span>
           
-          <tr class="rank-28">
-            <td class="rank">
-              28
-              
-            </td>
-            <td class="name">
-              <a href="profiles/5388538.html">Mohanthi</a>
-            </td>
-            <td class="title">Initiate of the Guild</td>
-            <td class="stars">⭐ 1</td>
-            <td class="score">27</td>
-            <td class="badges">
-              
-            </td>
-          </tr>
+        </div>
+      </div>
+      
+      <div class="card" data-rank="9" data-id="5388622">
+        <div class="card-rank">
+          #9
           
-          <tr class="rank-29">
-            <td class="rank">
-              29
-              
-            </td>
-            <td class="name">
-              <a href="profiles/5371678.html">Athul</a>
-            </td>
-            <td class="title">Initiate of the Guild</td>
-            <td class="stars">⭐ 1</td>
-            <td class="score">26</td>
-            <td class="badges">
-              
-            </td>
-          </tr>
+        </div>
+        
+        <div class="card-name">
+          <a href="profiles/5388622.html">Pradipta</a>
+        </div>
+        
+        <div class="card-stats">
+          <div class="stat">
+            <span class="stat-value">3</span>
+            <span class="stat-label">STARS</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">142</span>
+            <span class="stat-label">SCORE</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">9</span>
+            <span class="stat-label">LEVEL</span>
+          </div>
+        </div>
+        
+        <div class="card-badges">
           
-          <tr class="rank-30">
-            <td class="rank">
-              30
-              
-            </td>
-            <td class="name">
-              <a href="profiles/5388596.html">Charitha</a>
-            </td>
-            <td class="title">Initiate of the Guild</td>
-            <td class="stars">⭐ 1</td>
-            <td class="score">25</td>
-            <td class="badges">
-              
-            </td>
-          </tr>
+          <span class="badge-icon" title="Completed both stars within 30 minutes of each other">⚡</span>
           
-          <tr class="rank-31">
-            <td class="rank">
-              31
-              
-            </td>
-            <td class="name">
-              <a href="profiles/5368261.html">Abhay</a>
-            </td>
-            <td class="title">Initiate of the Guild</td>
-            <td class="stars">⭐ 1</td>
-            <td class="score">24</td>
-            <td class="badges">
-              
-            </td>
-          </tr>
+        </div>
+      </div>
+      
+      <div class="card" data-rank="10" data-id="5368411">
+        <div class="card-rank">
+          #10
           
-          <tr class="rank-32">
-            <td class="rank">
-              32
-              
-            </td>
-            <td class="name">
-              <a href="profiles/5388581.html">Som</a>
-            </td>
-            <td class="title">Initiate of the Guild</td>
-            <td class="stars">⭐ 1</td>
-            <td class="score">23</td>
-            <td class="badges">
-              
-            </td>
-          </tr>
+        </div>
+        
+        <div class="card-name">
+          <a href="profiles/5368411.html">Paulami</a>
+        </div>
+        
+        <div class="card-stats">
+          <div class="stat">
+            <span class="stat-value">2</span>
+            <span class="stat-label">STARS</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">96</span>
+            <span class="stat-label">SCORE</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">10</span>
+            <span class="stat-label">LEVEL</span>
+          </div>
+        </div>
+        
+        <div class="card-badges">
           
-          <tr class="rank-33">
-            <td class="rank">
-              33
-              
-            </td>
-            <td class="name">
-              <a href="profiles/5367943.html">Santo</a>
-            </td>
-            <td class="title">Initiate of the Guild</td>
-            <td class="stars">⭐ 1</td>
-            <td class="score">22</td>
-            <td class="badges">
-              
-            </td>
-          </tr>
+          <span class="badge-icon" title="Completed both stars on every day attempted">✨</span>
           
-          <tr class="rank-34">
-            <td class="rank">
-              34
-              
-            </td>
-            <td class="name">
-              <a href="profiles/5367439.html">Jeniffer</a>
-            </td>
-            <td class="title">Initiate of the Guild</td>
-            <td class="stars">⭐ 1</td>
-            <td class="score">21</td>
-            <td class="badges">
-              
-            </td>
-          </tr>
+        </div>
+      </div>
+      
+      <div class="card" data-rank="11" data-id="5388300">
+        <div class="card-rank">
+          #11
           
-          <tr class="rank-35">
-            <td class="rank">
-              35
-              
-            </td>
-            <td class="name">
-              <a href="profiles/5388573.html">Vivek</a>
-            </td>
-            <td class="title">Initiate of the Guild</td>
-            <td class="stars">⭐ 1</td>
-            <td class="score">20</td>
-            <td class="badges">
-              
-            </td>
-          </tr>
+        </div>
+        
+        <div class="card-name">
+          <a href="profiles/5388300.html">SIRI</a>
+        </div>
+        
+        <div class="card-stats">
+          <div class="stat">
+            <span class="stat-value">2</span>
+            <span class="stat-label">STARS</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">92</span>
+            <span class="stat-label">SCORE</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">11</span>
+            <span class="stat-label">LEVEL</span>
+          </div>
+        </div>
+        
+        <div class="card-badges">
           
-          <tr class="rank-36">
-            <td class="rank">
-              36
-              
-            </td>
-            <td class="name">
-              <a href="profiles/5369036.html">Umar</a>
-            </td>
-            <td class="title">Initiate of the Guild</td>
-            <td class="stars">⭐ 1</td>
-            <td class="score">19</td>
-            <td class="badges">
-              
-            </td>
-          </tr>
+          <span class="badge-icon" title="Completed both stars on every day attempted">✨</span>
           
-          <tr class="rank-37">
-            <td class="rank">
-              37
-              
-            </td>
-            <td class="name">
-              <a href="profiles/5388584.html">Ajoy</a>
-            </td>
-            <td class="title">Initiate of the Guild</td>
-            <td class="stars">⭐ 1</td>
-            <td class="score">18</td>
-            <td class="badges">
-              
-            </td>
-          </tr>
+        </div>
+      </div>
+      
+      <div class="card" data-rank="12" data-id="5388710">
+        <div class="card-rank">
+          #12
           
-          <tr class="rank-38">
-            <td class="rank">
-              38
-              
-            </td>
-            <td class="name">
-              <a href="profiles/5369661.html">Adarsh</a>
-            </td>
-            <td class="title">Initiate of the Guild</td>
-            <td class="stars">⭐ 1</td>
-            <td class="score">17</td>
-            <td class="badges">
-              
-            </td>
-          </tr>
+        </div>
+        
+        <div class="card-name">
+          <a href="profiles/5388710.html">Ibrahim</a>
+        </div>
+        
+        <div class="card-stats">
+          <div class="stat">
+            <span class="stat-value">2</span>
+            <span class="stat-label">STARS</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">86</span>
+            <span class="stat-label">SCORE</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">12</span>
+            <span class="stat-label">LEVEL</span>
+          </div>
+        </div>
+        
+        <div class="card-badges">
           
-          <tr class="rank-39">
-            <td class="rank">
-              39
-              
-            </td>
-            <td class="name">
-              <a href="profiles/5389287.html">khasim</a>
-            </td>
-            <td class="title">Initiate of the Guild</td>
-            <td class="stars">⭐ 1</td>
-            <td class="score">16</td>
-            <td class="badges">
-              
-            </td>
-          </tr>
+          <span class="badge-icon" title="Completed both stars on every day attempted">✨</span>
           
-          <tr class="rank-40">
-            <td class="rank">
-              40
-              
-            </td>
-            <td class="name">
-              <a href="profiles/5367331.html">Jayanth</a>
-            </td>
-            <td class="title">Aspiring Hero</td>
-            <td class="stars">⭐ 0</td>
-            <td class="score">0</td>
-            <td class="badges">
-              
-            </td>
-          </tr>
+          <span class="badge-icon" title="Completed both stars within 30 minutes of each other">⚡</span>
           
-          <tr class="rank-41">
-            <td class="rank">
-              41
-              
-            </td>
-            <td class="name">
-              <a href="profiles/5368046.html">Jyothi Praveen</a>
-            </td>
-            <td class="title">Aspiring Hero</td>
-            <td class="stars">⭐ 0</td>
-            <td class="score">0</td>
-            <td class="badges">
-              
-            </td>
-          </tr>
+        </div>
+      </div>
+      
+      <div class="card" data-rank="13" data-id="5388812">
+        <div class="card-rank">
+          #13
           
-          <tr class="rank-42">
-            <td class="rank">
-              42
-              
-            </td>
-            <td class="name">
-              <a href="profiles/5369727.html">Vismaya</a>
-            </td>
-            <td class="title">Aspiring Hero</td>
-            <td class="stars">⭐ 0</td>
-            <td class="score">0</td>
-            <td class="badges">
-              
-            </td>
-          </tr>
+        </div>
+        
+        <div class="card-name">
+          <a href="profiles/5388812.html">Gopi</a>
+        </div>
+        
+        <div class="card-stats">
+          <div class="stat">
+            <span class="stat-value">2</span>
+            <span class="stat-label">STARS</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">85</span>
+            <span class="stat-label">SCORE</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">13</span>
+            <span class="stat-label">LEVEL</span>
+          </div>
+        </div>
+        
+        <div class="card-badges">
           
-          <tr class="rank-43">
-            <td class="rank">
-              43
-              
-            </td>
-            <td class="name">
-              <a href="profiles/5370303.html">Samiran</a>
-            </td>
-            <td class="title">Aspiring Hero</td>
-            <td class="stars">⭐ 0</td>
-            <td class="score">0</td>
-            <td class="badges">
-              
-            </td>
-          </tr>
+          <span class="badge-icon" title="Completed both stars on every day attempted">✨</span>
           
-          <tr class="rank-44">
-            <td class="rank">
-              44
-              
-            </td>
-            <td class="name">
-              <a href="profiles/5387844.html">Amisha</a>
-            </td>
-            <td class="title">Aspiring Hero</td>
-            <td class="stars">⭐ 0</td>
-            <td class="score">0</td>
-            <td class="badges">
-              
-            </td>
-          </tr>
+          <span class="badge-icon" title="Completed both stars within 30 minutes of each other">⚡</span>
           
-          <tr class="rank-45">
-            <td class="rank">
-              45
-              
-            </td>
-            <td class="name">
-              <a href="profiles/5387872.html">Yash</a>
-            </td>
-            <td class="title">Aspiring Hero</td>
-            <td class="stars">⭐ 0</td>
-            <td class="score">0</td>
-            <td class="badges">
-              
-            </td>
-          </tr>
+        </div>
+      </div>
+      
+      <div class="card" data-rank="14" data-id="5388599">
+        <div class="card-rank">
+          #14
           
-          <tr class="rank-46">
-            <td class="rank">
-              46
-              
-            </td>
-            <td class="name">
-              <a href="profiles/5387967.html">Rashmika</a>
-            </td>
-            <td class="title">Aspiring Hero</td>
-            <td class="stars">⭐ 0</td>
-            <td class="score">0</td>
-            <td class="badges">
-              
-            </td>
-          </tr>
+        </div>
+        
+        <div class="card-name">
+          <a href="profiles/5388599.html">Rahul</a>
+        </div>
+        
+        <div class="card-stats">
+          <div class="stat">
+            <span class="stat-value">2</span>
+            <span class="stat-label">STARS</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">85</span>
+            <span class="stat-label">SCORE</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">14</span>
+            <span class="stat-label">LEVEL</span>
+          </div>
+        </div>
+        
+        <div class="card-badges">
           
-          <tr class="rank-47">
-            <td class="rank">
-              47
-              
-            </td>
-            <td class="name">
-              <a href="profiles/5388295.html">Kiranmai</a>
-            </td>
-            <td class="title">Aspiring Hero</td>
-            <td class="stars">⭐ 0</td>
-            <td class="score">0</td>
-            <td class="badges">
-              
-            </td>
-          </tr>
+          <span class="badge-icon" title="Completed both stars on every day attempted">✨</span>
           
-          <tr class="rank-48">
-            <td class="rank">
-              48
-              
-            </td>
-            <td class="name">
-              <a href="profiles/5388527.html">Dinesh</a>
-            </td>
-            <td class="title">Aspiring Hero</td>
-            <td class="stars">⭐ 0</td>
-            <td class="score">0</td>
-            <td class="badges">
-              
-            </td>
-          </tr>
+        </div>
+      </div>
+      
+      <div class="card" data-rank="15" data-id="5368887">
+        <div class="card-rank">
+          #15
           
-          <tr class="rank-49">
-            <td class="rank">
-              49
-              
-            </td>
-            <td class="name">
-              <a href="profiles/5388665.html">Ayush</a>
-            </td>
-            <td class="title">Aspiring Hero</td>
-            <td class="stars">⭐ 0</td>
-            <td class="score">0</td>
-            <td class="badges">
-              
-            </td>
-          </tr>
+        </div>
+        
+        <div class="card-name">
+          <a href="profiles/5368887.html">Rafiya</a>
+        </div>
+        
+        <div class="card-stats">
+          <div class="stat">
+            <span class="stat-value">2</span>
+            <span class="stat-label">STARS</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">85</span>
+            <span class="stat-label">SCORE</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">15</span>
+            <span class="stat-label">LEVEL</span>
+          </div>
+        </div>
+        
+        <div class="card-badges">
           
-          <tr class="rank-50">
-            <td class="rank">
-              50
-              
-            </td>
-            <td class="name">
-              <a href="profiles/5388823.html">Priyanshu</a>
-            </td>
-            <td class="title">Aspiring Hero</td>
-            <td class="stars">⭐ 0</td>
-            <td class="score">0</td>
-            <td class="badges">
-              
-            </td>
-          </tr>
+          <span class="badge-icon" title="Completed both stars on every day attempted">✨</span>
           
-          <tr class="rank-51">
-            <td class="rank">
-              51
-              
-            </td>
-            <td class="name">
-              <a href="profiles/5388984.html">Pradip</a>
-            </td>
-            <td class="title">Aspiring Hero</td>
-            <td class="stars">⭐ 0</td>
-            <td class="score">0</td>
-            <td class="badges">
-              
-            </td>
-          </tr>
+        </div>
+      </div>
+      
+      <div class="card" data-rank="16" data-id="5386456">
+        <div class="card-rank">
+          #16
           
-          <tr class="rank-52">
-            <td class="rank">
-              52
-              
-            </td>
-            <td class="name">
-              <a href="profiles/5389032.html">Gautham</a>
-            </td>
-            <td class="title">Aspiring Hero</td>
-            <td class="stars">⭐ 0</td>
-            <td class="score">0</td>
-            <td class="badges">
-              
-            </td>
-          </tr>
+        </div>
+        
+        <div class="card-name">
+          <a href="profiles/5386456.html">Haider</a>
+        </div>
+        
+        <div class="card-stats">
+          <div class="stat">
+            <span class="stat-value">2</span>
+            <span class="stat-label">STARS</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">79</span>
+            <span class="stat-label">SCORE</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">16</span>
+            <span class="stat-label">LEVEL</span>
+          </div>
+        </div>
+        
+        <div class="card-badges">
           
-          <tr class="rank-53">
-            <td class="rank">
-              53
-              
-            </td>
-            <td class="name">
-              <a href="profiles/5389519.html">Sanket Pawar </a>
-            </td>
-            <td class="title">Aspiring Hero</td>
-            <td class="stars">⭐ 0</td>
-            <td class="score">0</td>
-            <td class="badges">
-              
-            </td>
-          </tr>
+          <span class="badge-icon" title="Completed both stars on every day attempted">✨</span>
           
-          <tr class="rank-54">
-            <td class="rank">
-              54
-              
-            </td>
-            <td class="name">
-              <a href="profiles/5389643.html">GurramChiranjeevi</a>
-            </td>
-            <td class="title">Aspiring Hero</td>
-            <td class="stars">⭐ 0</td>
-            <td class="score">0</td>
-            <td class="badges">
-              
-            </td>
-          </tr>
+        </div>
+      </div>
+      
+      <div class="card" data-rank="17" data-id="5388814">
+        <div class="card-rank">
+          #17
           
-        </tbody>
-      </table>
+        </div>
+        
+        <div class="card-name">
+          <a href="profiles/5388814.html">Nitesh</a>
+        </div>
+        
+        <div class="card-stats">
+          <div class="stat">
+            <span class="stat-value">2</span>
+            <span class="stat-label">STARS</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">77</span>
+            <span class="stat-label">SCORE</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">17</span>
+            <span class="stat-label">LEVEL</span>
+          </div>
+        </div>
+        
+        <div class="card-badges">
+          
+          <span class="badge-icon" title="Completed both stars on every day attempted">✨</span>
+          
+        </div>
+      </div>
+      
+      <div class="card" data-rank="18" data-id="5368028">
+        <div class="card-rank">
+          #18
+          
+        </div>
+        
+        <div class="card-name">
+          <a href="profiles/5368028.html">Shivang</a>
+        </div>
+        
+        <div class="card-stats">
+          <div class="stat">
+            <span class="stat-value">2</span>
+            <span class="stat-label">STARS</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">75</span>
+            <span class="stat-label">SCORE</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">18</span>
+            <span class="stat-label">LEVEL</span>
+          </div>
+        </div>
+        
+        <div class="card-badges">
+          
+          <span class="badge-icon" title="Completed both stars on every day attempted">✨</span>
+          
+        </div>
+      </div>
+      
+      <div class="card" data-rank="19" data-id="5388792">
+        <div class="card-rank">
+          #19
+          
+        </div>
+        
+        <div class="card-name">
+          <a href="profiles/5388792.html">Vikas</a>
+        </div>
+        
+        <div class="card-stats">
+          <div class="stat">
+            <span class="stat-value">2</span>
+            <span class="stat-label">STARS</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">74</span>
+            <span class="stat-label">SCORE</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">19</span>
+            <span class="stat-label">LEVEL</span>
+          </div>
+        </div>
+        
+        <div class="card-badges">
+          
+          <span class="badge-icon" title="Completed both stars on every day attempted">✨</span>
+          
+          <span class="badge-icon" title="Completed both stars within 30 minutes of each other">⚡</span>
+          
+        </div>
+      </div>
+      
+      <div class="card" data-rank="20" data-id="5388872">
+        <div class="card-rank">
+          #20
+          
+        </div>
+        
+        <div class="card-name">
+          <a href="profiles/5388872.html">Sandip Saha</a>
+        </div>
+        
+        <div class="card-stats">
+          <div class="stat">
+            <span class="stat-value">2</span>
+            <span class="stat-label">STARS</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">74</span>
+            <span class="stat-label">SCORE</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">20</span>
+            <span class="stat-label">LEVEL</span>
+          </div>
+        </div>
+        
+        <div class="card-badges">
+          
+          <span class="badge-icon" title="Completed both stars on every day attempted">✨</span>
+          
+        </div>
+      </div>
+      
+      <div class="card" data-rank="21" data-id="5388593">
+        <div class="card-rank">
+          #21
+          
+        </div>
+        
+        <div class="card-name">
+          <a href="profiles/5388593.html">Karthik</a>
+        </div>
+        
+        <div class="card-stats">
+          <div class="stat">
+            <span class="stat-value">2</span>
+            <span class="stat-label">STARS</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">71</span>
+            <span class="stat-label">SCORE</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">21</span>
+            <span class="stat-label">LEVEL</span>
+          </div>
+        </div>
+        
+        <div class="card-badges">
+          
+          <span class="badge-icon" title="Completed both stars on every day attempted">✨</span>
+          
+          <span class="badge-icon" title="Completed both stars within 30 minutes of each other">⚡</span>
+          
+        </div>
+      </div>
+      
+      <div class="card" data-rank="22" data-id="5371344">
+        <div class="card-rank">
+          #22
+          
+        </div>
+        
+        <div class="card-name">
+          <a href="profiles/5371344.html">Adithyan</a>
+        </div>
+        
+        <div class="card-stats">
+          <div class="stat">
+            <span class="stat-value">2</span>
+            <span class="stat-label">STARS</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">69</span>
+            <span class="stat-label">SCORE</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">22</span>
+            <span class="stat-label">LEVEL</span>
+          </div>
+        </div>
+        
+        <div class="card-badges">
+          
+          <span class="badge-icon" title="Completed both stars on every day attempted">✨</span>
+          
+          <span class="badge-icon" title="Completed both stars within 30 minutes of each other">⚡</span>
+          
+        </div>
+      </div>
+      
+      <div class="card" data-rank="23" data-id="5388498">
+        <div class="card-rank">
+          #23
+          
+        </div>
+        
+        <div class="card-name">
+          <a href="profiles/5388498.html">Sidhartha</a>
+        </div>
+        
+        <div class="card-stats">
+          <div class="stat">
+            <span class="stat-value">2</span>
+            <span class="stat-label">STARS</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">66</span>
+            <span class="stat-label">SCORE</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">23</span>
+            <span class="stat-label">LEVEL</span>
+          </div>
+        </div>
+        
+        <div class="card-badges">
+          
+          <span class="badge-icon" title="Completed both stars on every day attempted">✨</span>
+          
+        </div>
+      </div>
+      
+      <div class="card" data-rank="24" data-id="5388833">
+        <div class="card-rank">
+          #24
+          
+        </div>
+        
+        <div class="card-name">
+          <a href="profiles/5388833.html">Oiendrila</a>
+        </div>
+        
+        <div class="card-stats">
+          <div class="stat">
+            <span class="stat-value">2</span>
+            <span class="stat-label">STARS</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">62</span>
+            <span class="stat-label">SCORE</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">24</span>
+            <span class="stat-label">LEVEL</span>
+          </div>
+        </div>
+        
+        <div class="card-badges">
+          
+          <span class="badge-icon" title="Completed both stars on every day attempted">✨</span>
+          
+        </div>
+      </div>
+      
+      <div class="card" data-rank="25" data-id="5388581">
+        <div class="card-rank">
+          #25
+          
+        </div>
+        
+        <div class="card-name">
+          <a href="profiles/5388581.html">Som</a>
+        </div>
+        
+        <div class="card-stats">
+          <div class="stat">
+            <span class="stat-value">2</span>
+            <span class="stat-label">STARS</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">59</span>
+            <span class="stat-label">SCORE</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">25</span>
+            <span class="stat-label">LEVEL</span>
+          </div>
+        </div>
+        
+        <div class="card-badges">
+          
+          <span class="badge-icon" title="Completed both stars on every day attempted">✨</span>
+          
+          <span class="badge-icon" title="Completed both stars within 30 minutes of each other">⚡</span>
+          
+        </div>
+      </div>
+      
+      <div class="card" data-rank="26" data-id="5367439">
+        <div class="card-rank">
+          #26
+          
+        </div>
+        
+        <div class="card-name">
+          <a href="profiles/5367439.html">Jeniffer</a>
+        </div>
+        
+        <div class="card-stats">
+          <div class="stat">
+            <span class="stat-value">2</span>
+            <span class="stat-label">STARS</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">58</span>
+            <span class="stat-label">SCORE</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">26</span>
+            <span class="stat-label">LEVEL</span>
+          </div>
+        </div>
+        
+        <div class="card-badges">
+          
+          <span class="badge-icon" title="Completed both stars on every day attempted">✨</span>
+          
+          <span class="badge-icon" title="Completed both stars within 30 minutes of each other">⚡</span>
+          
+        </div>
+      </div>
+      
+      <div class="card" data-rank="27" data-id="5388847">
+        <div class="card-rank">
+          #27
+          
+        </div>
+        
+        <div class="card-name">
+          <a href="profiles/5388847.html">Sivaji</a>
+        </div>
+        
+        <div class="card-stats">
+          <div class="stat">
+            <span class="stat-value">2</span>
+            <span class="stat-label">STARS</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">58</span>
+            <span class="stat-label">SCORE</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">27</span>
+            <span class="stat-label">LEVEL</span>
+          </div>
+        </div>
+        
+        <div class="card-badges">
+          
+          <span class="badge-icon" title="Completed both stars on every day attempted">✨</span>
+          
+        </div>
+      </div>
+      
+      <div class="card" data-rank="28" data-id="5368261">
+        <div class="card-rank">
+          #28
+          
+        </div>
+        
+        <div class="card-name">
+          <a href="profiles/5368261.html">Abhay</a>
+        </div>
+        
+        <div class="card-stats">
+          <div class="stat">
+            <span class="stat-value">2</span>
+            <span class="stat-label">STARS</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">56</span>
+            <span class="stat-label">SCORE</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">28</span>
+            <span class="stat-label">LEVEL</span>
+          </div>
+        </div>
+        
+        <div class="card-badges">
+          
+          <span class="badge-icon" title="Completed both stars on every day attempted">✨</span>
+          
+          <span class="badge-icon" title="Completed both stars within 30 minutes of each other">⚡</span>
+          
+        </div>
+      </div>
+      
+      <div class="card" data-rank="29" data-id="5389032">
+        <div class="card-rank">
+          #29
+          
+        </div>
+        
+        <div class="card-name">
+          <a href="profiles/5389032.html">Gautham</a>
+        </div>
+        
+        <div class="card-stats">
+          <div class="stat">
+            <span class="stat-value">2</span>
+            <span class="stat-label">STARS</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">49</span>
+            <span class="stat-label">SCORE</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">29</span>
+            <span class="stat-label">LEVEL</span>
+          </div>
+        </div>
+        
+        <div class="card-badges">
+          
+          <span class="badge-icon" title="Completed both stars on every day attempted">✨</span>
+          
+          <span class="badge-icon" title="Completed both stars within 30 minutes of each other">⚡</span>
+          
+        </div>
+      </div>
+      
+      <div class="card" data-rank="30" data-id="5389287">
+        <div class="card-rank">
+          #30
+          
+        </div>
+        
+        <div class="card-name">
+          <a href="profiles/5389287.html">khasim</a>
+        </div>
+        
+        <div class="card-stats">
+          <div class="stat">
+            <span class="stat-value">2</span>
+            <span class="stat-label">STARS</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">49</span>
+            <span class="stat-label">SCORE</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">30</span>
+            <span class="stat-label">LEVEL</span>
+          </div>
+        </div>
+        
+        <div class="card-badges">
+          
+          <span class="badge-icon" title="Completed both stars on every day attempted">✨</span>
+          
+          <span class="badge-icon" title="Completed both stars within 30 minutes of each other">⚡</span>
+          
+        </div>
+      </div>
+      
+      <div class="card" data-rank="31" data-id="5369036">
+        <div class="card-rank">
+          #31
+          
+        </div>
+        
+        <div class="card-name">
+          <a href="profiles/5369036.html">Umar</a>
+        </div>
+        
+        <div class="card-stats">
+          <div class="stat">
+            <span class="stat-value">2</span>
+            <span class="stat-label">STARS</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">47</span>
+            <span class="stat-label">SCORE</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">31</span>
+            <span class="stat-label">LEVEL</span>
+          </div>
+        </div>
+        
+        <div class="card-badges">
+          
+          <span class="badge-icon" title="Completed both stars on every day attempted">✨</span>
+          
+          <span class="badge-icon" title="Completed both stars within 30 minutes of each other">⚡</span>
+          
+        </div>
+      </div>
+      
+      <div class="card" data-rank="32" data-id="5388618">
+        <div class="card-rank">
+          #32
+          
+        </div>
+        
+        <div class="card-name">
+          <a href="profiles/5388618.html">Nandini</a>
+        </div>
+        
+        <div class="card-stats">
+          <div class="stat">
+            <span class="stat-value">1</span>
+            <span class="stat-label">STARS</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">37</span>
+            <span class="stat-label">SCORE</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">32</span>
+            <span class="stat-label">LEVEL</span>
+          </div>
+        </div>
+        
+        <div class="card-badges">
+          
+        </div>
+      </div>
+      
+      <div class="card" data-rank="33" data-id="5368329">
+        <div class="card-rank">
+          #33
+          
+        </div>
+        
+        <div class="card-name">
+          <a href="profiles/5368329.html">Haji</a>
+        </div>
+        
+        <div class="card-stats">
+          <div class="stat">
+            <span class="stat-value">1</span>
+            <span class="stat-label">STARS</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">35</span>
+            <span class="stat-label">SCORE</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">33</span>
+            <span class="stat-label">LEVEL</span>
+          </div>
+        </div>
+        
+        <div class="card-badges">
+          
+        </div>
+      </div>
+      
+      <div class="card" data-rank="34" data-id="5385856">
+        <div class="card-rank">
+          #34
+          
+        </div>
+        
+        <div class="card-name">
+          <a href="profiles/5385856.html">Dilli</a>
+        </div>
+        
+        <div class="card-stats">
+          <div class="stat">
+            <span class="stat-value">1</span>
+            <span class="stat-label">STARS</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">34</span>
+            <span class="stat-label">SCORE</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">34</span>
+            <span class="stat-label">LEVEL</span>
+          </div>
+        </div>
+        
+        <div class="card-badges">
+          
+        </div>
+      </div>
+      
+      <div class="card" data-rank="35" data-id="5388538">
+        <div class="card-rank">
+          #35
+          
+        </div>
+        
+        <div class="card-name">
+          <a href="profiles/5388538.html">Mohanthi</a>
+        </div>
+        
+        <div class="card-stats">
+          <div class="stat">
+            <span class="stat-value">1</span>
+            <span class="stat-label">STARS</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">28</span>
+            <span class="stat-label">SCORE</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">35</span>
+            <span class="stat-label">LEVEL</span>
+          </div>
+        </div>
+        
+        <div class="card-badges">
+          
+        </div>
+      </div>
+      
+      <div class="card" data-rank="36" data-id="5371678">
+        <div class="card-rank">
+          #36
+          
+        </div>
+        
+        <div class="card-name">
+          <a href="profiles/5371678.html">Athul</a>
+        </div>
+        
+        <div class="card-stats">
+          <div class="stat">
+            <span class="stat-value">1</span>
+            <span class="stat-label">STARS</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">27</span>
+            <span class="stat-label">SCORE</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">36</span>
+            <span class="stat-label">LEVEL</span>
+          </div>
+        </div>
+        
+        <div class="card-badges">
+          
+        </div>
+      </div>
+      
+      <div class="card" data-rank="37" data-id="5388596">
+        <div class="card-rank">
+          #37
+          
+        </div>
+        
+        <div class="card-name">
+          <a href="profiles/5388596.html">Charitha</a>
+        </div>
+        
+        <div class="card-stats">
+          <div class="stat">
+            <span class="stat-value">1</span>
+            <span class="stat-label">STARS</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">26</span>
+            <span class="stat-label">SCORE</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">37</span>
+            <span class="stat-label">LEVEL</span>
+          </div>
+        </div>
+        
+        <div class="card-badges">
+          
+        </div>
+      </div>
+      
+      <div class="card" data-rank="38" data-id="5367943">
+        <div class="card-rank">
+          #38
+          
+        </div>
+        
+        <div class="card-name">
+          <a href="profiles/5367943.html">Santo</a>
+        </div>
+        
+        <div class="card-stats">
+          <div class="stat">
+            <span class="stat-value">1</span>
+            <span class="stat-label">STARS</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">23</span>
+            <span class="stat-label">SCORE</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">38</span>
+            <span class="stat-label">LEVEL</span>
+          </div>
+        </div>
+        
+        <div class="card-badges">
+          
+        </div>
+      </div>
+      
+      <div class="card" data-rank="39" data-id="5388573">
+        <div class="card-rank">
+          #39
+          
+        </div>
+        
+        <div class="card-name">
+          <a href="profiles/5388573.html">Vivek</a>
+        </div>
+        
+        <div class="card-stats">
+          <div class="stat">
+            <span class="stat-value">1</span>
+            <span class="stat-label">STARS</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">21</span>
+            <span class="stat-label">SCORE</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">39</span>
+            <span class="stat-label">LEVEL</span>
+          </div>
+        </div>
+        
+        <div class="card-badges">
+          
+        </div>
+      </div>
+      
+      <div class="card" data-rank="40" data-id="5388584">
+        <div class="card-rank">
+          #40
+          
+        </div>
+        
+        <div class="card-name">
+          <a href="profiles/5388584.html">Ajoy</a>
+        </div>
+        
+        <div class="card-stats">
+          <div class="stat">
+            <span class="stat-value">1</span>
+            <span class="stat-label">STARS</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">19</span>
+            <span class="stat-label">SCORE</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">40</span>
+            <span class="stat-label">LEVEL</span>
+          </div>
+        </div>
+        
+        <div class="card-badges">
+          
+        </div>
+      </div>
+      
+      <div class="card" data-rank="41" data-id="5369661">
+        <div class="card-rank">
+          #41
+          
+        </div>
+        
+        <div class="card-name">
+          <a href="profiles/5369661.html">Adarsh</a>
+        </div>
+        
+        <div class="card-stats">
+          <div class="stat">
+            <span class="stat-value">1</span>
+            <span class="stat-label">STARS</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">18</span>
+            <span class="stat-label">SCORE</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">41</span>
+            <span class="stat-label">LEVEL</span>
+          </div>
+        </div>
+        
+        <div class="card-badges">
+          
+        </div>
+      </div>
+      
+      <div class="card" data-rank="42" data-id="5388823">
+        <div class="card-rank">
+          #42
+          
+        </div>
+        
+        <div class="card-name">
+          <a href="profiles/5388823.html">Priyanshu</a>
+        </div>
+        
+        <div class="card-stats">
+          <div class="stat">
+            <span class="stat-value">1</span>
+            <span class="stat-label">STARS</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">16</span>
+            <span class="stat-label">SCORE</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">42</span>
+            <span class="stat-label">LEVEL</span>
+          </div>
+        </div>
+        
+        <div class="card-badges">
+          
+        </div>
+      </div>
+      
+      <div class="card" data-rank="43" data-id="5389643">
+        <div class="card-rank">
+          #43
+          
+        </div>
+        
+        <div class="card-name">
+          <a href="profiles/5389643.html">GurramChiranjeevi</a>
+        </div>
+        
+        <div class="card-stats">
+          <div class="stat">
+            <span class="stat-value">1</span>
+            <span class="stat-label">STARS</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">14</span>
+            <span class="stat-label">SCORE</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">43</span>
+            <span class="stat-label">LEVEL</span>
+          </div>
+        </div>
+        
+        <div class="card-badges">
+          
+        </div>
+      </div>
+      
+      <div class="card" data-rank="44" data-id="5388295">
+        <div class="card-rank">
+          #44
+          
+        </div>
+        
+        <div class="card-name">
+          <a href="profiles/5388295.html">Kiranmai</a>
+        </div>
+        
+        <div class="card-stats">
+          <div class="stat">
+            <span class="stat-value">1</span>
+            <span class="stat-label">STARS</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">13</span>
+            <span class="stat-label">SCORE</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">44</span>
+            <span class="stat-label">LEVEL</span>
+          </div>
+        </div>
+        
+        <div class="card-badges">
+          
+        </div>
+      </div>
+      
+      <div class="card" data-rank="45" data-id="5388527">
+        <div class="card-rank">
+          #45
+          
+        </div>
+        
+        <div class="card-name">
+          <a href="profiles/5388527.html">Dinesh</a>
+        </div>
+        
+        <div class="card-stats">
+          <div class="stat">
+            <span class="stat-value">1</span>
+            <span class="stat-label">STARS</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">12</span>
+            <span class="stat-label">SCORE</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">45</span>
+            <span class="stat-label">LEVEL</span>
+          </div>
+        </div>
+        
+        <div class="card-badges">
+          
+        </div>
+      </div>
+      
+      <div class="card" data-rank="46" data-id="5370303">
+        <div class="card-rank">
+          #46
+          
+        </div>
+        
+        <div class="card-name">
+          <a href="profiles/5370303.html">Samiran</a>
+        </div>
+        
+        <div class="card-stats">
+          <div class="stat">
+            <span class="stat-value">1</span>
+            <span class="stat-label">STARS</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">11</span>
+            <span class="stat-label">SCORE</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">46</span>
+            <span class="stat-label">LEVEL</span>
+          </div>
+        </div>
+        
+        <div class="card-badges">
+          
+        </div>
+      </div>
+      
+      <div class="card" data-rank="47" data-id="5388984">
+        <div class="card-rank">
+          #47
+          
+        </div>
+        
+        <div class="card-name">
+          <a href="profiles/5388984.html">Pradip</a>
+        </div>
+        
+        <div class="card-stats">
+          <div class="stat">
+            <span class="stat-value">1</span>
+            <span class="stat-label">STARS</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">10</span>
+            <span class="stat-label">SCORE</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">47</span>
+            <span class="stat-label">LEVEL</span>
+          </div>
+        </div>
+        
+        <div class="card-badges">
+          
+        </div>
+      </div>
+      
+      <div class="card" data-rank="48" data-id="5367331">
+        <div class="card-rank">
+          #48
+          
+        </div>
+        
+        <div class="card-name">
+          <a href="profiles/5367331.html">Jayanth</a>
+        </div>
+        
+        <div class="card-stats">
+          <div class="stat">
+            <span class="stat-value">0</span>
+            <span class="stat-label">STARS</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">0</span>
+            <span class="stat-label">SCORE</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">48</span>
+            <span class="stat-label">LEVEL</span>
+          </div>
+        </div>
+        
+        <div class="card-badges">
+          
+        </div>
+      </div>
+      
+      <div class="card" data-rank="49" data-id="5368046">
+        <div class="card-rank">
+          #49
+          
+        </div>
+        
+        <div class="card-name">
+          <a href="profiles/5368046.html">Jyothi Praveen</a>
+        </div>
+        
+        <div class="card-stats">
+          <div class="stat">
+            <span class="stat-value">0</span>
+            <span class="stat-label">STARS</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">0</span>
+            <span class="stat-label">SCORE</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">49</span>
+            <span class="stat-label">LEVEL</span>
+          </div>
+        </div>
+        
+        <div class="card-badges">
+          
+        </div>
+      </div>
+      
+      <div class="card" data-rank="50" data-id="5369727">
+        <div class="card-rank">
+          #50
+          
+        </div>
+        
+        <div class="card-name">
+          <a href="profiles/5369727.html">Vismaya</a>
+        </div>
+        
+        <div class="card-stats">
+          <div class="stat">
+            <span class="stat-value">0</span>
+            <span class="stat-label">STARS</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">0</span>
+            <span class="stat-label">SCORE</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">50</span>
+            <span class="stat-label">LEVEL</span>
+          </div>
+        </div>
+        
+        <div class="card-badges">
+          
+        </div>
+      </div>
+      
+      <div class="card" data-rank="51" data-id="5387844">
+        <div class="card-rank">
+          #51
+          
+        </div>
+        
+        <div class="card-name">
+          <a href="profiles/5387844.html">Amisha</a>
+        </div>
+        
+        <div class="card-stats">
+          <div class="stat">
+            <span class="stat-value">0</span>
+            <span class="stat-label">STARS</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">0</span>
+            <span class="stat-label">SCORE</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">51</span>
+            <span class="stat-label">LEVEL</span>
+          </div>
+        </div>
+        
+        <div class="card-badges">
+          
+        </div>
+      </div>
+      
+      <div class="card" data-rank="52" data-id="5387872">
+        <div class="card-rank">
+          #52
+          
+        </div>
+        
+        <div class="card-name">
+          <a href="profiles/5387872.html">Yash</a>
+        </div>
+        
+        <div class="card-stats">
+          <div class="stat">
+            <span class="stat-value">0</span>
+            <span class="stat-label">STARS</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">0</span>
+            <span class="stat-label">SCORE</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">52</span>
+            <span class="stat-label">LEVEL</span>
+          </div>
+        </div>
+        
+        <div class="card-badges">
+          
+        </div>
+      </div>
+      
+      <div class="card" data-rank="53" data-id="5387967">
+        <div class="card-rank">
+          #53
+          
+        </div>
+        
+        <div class="card-name">
+          <a href="profiles/5387967.html">Rashmika</a>
+        </div>
+        
+        <div class="card-stats">
+          <div class="stat">
+            <span class="stat-value">0</span>
+            <span class="stat-label">STARS</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">0</span>
+            <span class="stat-label">SCORE</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">53</span>
+            <span class="stat-label">LEVEL</span>
+          </div>
+        </div>
+        
+        <div class="card-badges">
+          
+        </div>
+      </div>
+      
+      <div class="card" data-rank="54" data-id="5388665">
+        <div class="card-rank">
+          #54
+          
+        </div>
+        
+        <div class="card-name">
+          <a href="profiles/5388665.html">Ayush</a>
+        </div>
+        
+        <div class="card-stats">
+          <div class="stat">
+            <span class="stat-value">0</span>
+            <span class="stat-label">STARS</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">0</span>
+            <span class="stat-label">SCORE</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">54</span>
+            <span class="stat-label">LEVEL</span>
+          </div>
+        </div>
+        
+        <div class="card-badges">
+          
+        </div>
+      </div>
+      
+      <div class="card" data-rank="55" data-id="5389519">
+        <div class="card-rank">
+          #55
+          
+        </div>
+        
+        <div class="card-name">
+          <a href="profiles/5389519.html">Sanket Pawar </a>
+        </div>
+        
+        <div class="card-stats">
+          <div class="stat">
+            <span class="stat-value">0</span>
+            <span class="stat-label">STARS</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">0</span>
+            <span class="stat-label">SCORE</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">55</span>
+            <span class="stat-label">LEVEL</span>
+          </div>
+        </div>
+        
+        <div class="card-badges">
+          
+        </div>
+      </div>
+      
+      <div class="card" data-rank="56" data-id="5390110">
+        <div class="card-rank">
+          #56
+          
+        </div>
+        
+        <div class="card-name">
+          <a href="profiles/5390110.html">Bhargavipeddakota</a>
+        </div>
+        
+        <div class="card-stats">
+          <div class="stat">
+            <span class="stat-value">0</span>
+            <span class="stat-label">STARS</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">0</span>
+            <span class="stat-label">SCORE</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">56</span>
+            <span class="stat-label">LEVEL</span>
+          </div>
+        </div>
+        
+        <div class="card-badges">
+          
+        </div>
+      </div>
+      
     </div>
 
     <footer>
-      <p>Last updated: 12/3/2025, 5:19:08 AM</p>
+      <p>Last updated: 12/3/2025, 5:53:32 AM</p>
       <p class="flavor">May the stars guide your path, brave adventurer.</p>
     </footer>
   </div>
