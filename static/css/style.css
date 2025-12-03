@@ -172,72 +172,67 @@ h2 {
 .card-name {
   text-align: center;
   margin-top: 40px;
-}
-
-.card-name a {
   font-family: 'Bangers', cursive;
   font-size: 2.5em;
   color: white;
-  text-decoration: none;
   text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4);
   letter-spacing: 2px;
-  display: block;
   line-height: 1;
 }
 
 /* Random rotation for each card name based on data-id */
-.card[data-id="829678"] .card-name a { transform: rotate(-3deg); }
-.card[data-id="4958572"] .card-name a { transform: rotate(5deg); }
-.card[data-id="5363592"] .card-name a { transform: rotate(-7deg); }
-.card[data-id="5364970"] .card-name a { transform: rotate(4deg); }
-.card[data-id="5366372"] .card-name a { transform: rotate(-5deg); }
-.card[data-id="5366843"] .card-name a { transform: rotate(6deg); }
-.card[data-id="5367331"] .card-name a { transform: rotate(-4deg); }
-.card[data-id="5367439"] .card-name a { transform: rotate(7deg); }
-.card[data-id="5367943"] .card-name a { transform: rotate(-6deg); }
-.card[data-id="5368028"] .card-name a { transform: rotate(3deg); }
-.card[data-id="5368046"] .card-name a { transform: rotate(-8deg); }
-.card[data-id="5368261"] .card-name a { transform: rotate(5deg); }
-.card[data-id="5368329"] .card-name a { transform: rotate(-3deg); }
-.card[data-id="5368411"] .card-name a { transform: rotate(6deg); }
-.card[data-id="5368887"] .card-name a { transform: rotate(-5deg); }
-.card[data-id="5369036"] .card-name a { transform: rotate(4deg); }
-.card[data-id="5369661"] .card-name a { transform: rotate(-7deg); }
-.card[data-id="5369727"] .card-name a { transform: rotate(8deg); }
-.card[data-id="5370303"] .card-name a { transform: rotate(-4deg); }
-.card[data-id="5370327"] .card-name a { transform: rotate(5deg); }
-.card[data-id="5371344"] .card-name a { transform: rotate(-6deg); }
-.card[data-id="5371678"] .card-name a { transform: rotate(7deg); }
-.card[data-id="5385856"] .card-name a { transform: rotate(-5deg); }
-.card[data-id="5386456"] .card-name a { transform: rotate(4deg); }
-.card[data-id="5387844"] .card-name a { transform: rotate(-7deg); }
-.card[data-id="5387872"] .card-name a { transform: rotate(6deg); }
-.card[data-id="5387967"] .card-name a { transform: rotate(-3deg); }
-.card[data-id="5388127"] .card-name a { transform: rotate(5deg); }
-.card[data-id="5388295"] .card-name a { transform: rotate(-8deg); }
-.card[data-id="5388300"] .card-name a { transform: rotate(4deg); }
-.card[data-id="5388498"] .card-name a { transform: rotate(-6deg); }
-.card[data-id="5388527"] .card-name a { transform: rotate(7deg); }
-.card[data-id="5388538"] .card-name a { transform: rotate(-4deg); }
-.card[data-id="5388573"] .card-name a { transform: rotate(5deg); }
-.card[data-id="5388581"] .card-name a { transform: rotate(-7deg); }
-.card[data-id="5388584"] .card-name a { transform: rotate(6deg); }
-.card[data-id="5388593"] .card-name a { transform: rotate(-5deg); }
-.card[data-id="5388596"] .card-name a { transform: rotate(4deg); }
-.card[data-id="5388598"] .card-name a { transform: rotate(-8deg); }
-.card[data-id="5388599"] .card-name a { transform: rotate(7deg); }
-.card[data-id="5388618"] .card-name a { transform: rotate(-3deg); }
-.card[data-id="5388622"] .card-name a { transform: rotate(5deg); }
-.card[data-id="5388665"] .card-name a { transform: rotate(-6deg); }
-.card[data-id="5388710"] .card-name a { transform: rotate(4deg); }
-.card[data-id="5388792"] .card-name a { transform: rotate(-7deg); }
-.card[data-id="5388812"] .card-name a { transform: rotate(6deg); }
-.card[data-id="5388814"] .card-name a { transform: rotate(-4deg); }
-.card[data-id="5388823"] .card-name a { transform: rotate(5deg); }
-.card[data-id="5388833"] .card-name a { transform: rotate(-8deg); }
-.card[data-id="5388847"] .card-name a { transform: rotate(7deg); }
-.card[data-id="5388984"] .card-name a { transform: rotate(-5deg); }
-.card[data-id="5389032"] .card-name a { transform: rotate(4deg); }
+.card[data-id="829678"] .card-name { transform: rotate(-3deg); }
+.card[data-id="4958572"] .card-name { transform: rotate(5deg); }
+.card[data-id="5363592"] .card-name { transform: rotate(-7deg); }
+.card[data-id="5364970"] .card-name { transform: rotate(4deg); }
+.card[data-id="5366372"] .card-name { transform: rotate(-5deg); }
+.card[data-id="5366843"] .card-name { transform: rotate(6deg); }
+.card[data-id="5367331"] .card-name { transform: rotate(-4deg); }
+.card[data-id="5367439"] .card-name { transform: rotate(7deg); }
+.card[data-id="5367943"] .card-name { transform: rotate(-6deg); }
+.card[data-id="5368028"] .card-name { transform: rotate(3deg); }
+.card[data-id="5368046"] .card-name { transform: rotate(-8deg); }
+.card[data-id="5368261"] .card-name { transform: rotate(5deg); }
+.card[data-id="5368329"] .card-name { transform: rotate(-3deg); }
+.card[data-id="5368411"] .card-name { transform: rotate(6deg); }
+.card[data-id="5368887"] .card-name { transform: rotate(-5deg); }
+.card[data-id="5369036"] .card-name { transform: rotate(4deg); }
+.card[data-id="5369661"] .card-name { transform: rotate(-7deg); }
+.card[data-id="5369727"] .card-name { transform: rotate(8deg); }
+.card[data-id="5370303"] .card-name { transform: rotate(-4deg); }
+.card[data-id="5370327"] .card-name { transform: rotate(5deg); }
+.card[data-id="5371344"] .card-name { transform: rotate(-6deg); }
+.card[data-id="5371678"] .card-name { transform: rotate(7deg); }
+.card[data-id="5385856"] .card-name { transform: rotate(-5deg); }
+.card[data-id="5386456"] .card-name { transform: rotate(4deg); }
+.card[data-id="5387844"] .card-name { transform: rotate(-7deg); }
+.card[data-id="5387872"] .card-name { transform: rotate(6deg); }
+.card[data-id="5387967"] .card-name { transform: rotate(-3deg); }
+.card[data-id="5388127"] .card-name { transform: rotate(5deg); }
+.card[data-id="5388295"] .card-name { transform: rotate(-8deg); }
+.card[data-id="5388300"] .card-name { transform: rotate(4deg); }
+.card[data-id="5388498"] .card-name { transform: rotate(-6deg); }
+.card[data-id="5388527"] .card-name { transform: rotate(7deg); }
+.card[data-id="5388538"] .card-name { transform: rotate(-4deg); }
+.card[data-id="5388573"] .card-name { transform: rotate(5deg); }
+.card[data-id="5388581"] .card-name { transform: rotate(-7deg); }
+.card[data-id="5388584"] .card-name { transform: rotate(6deg); }
+.card[data-id="5388593"] .card-name { transform: rotate(-5deg); }
+.card[data-id="5388596"] .card-name { transform: rotate(4deg); }
+.card[data-id="5388598"] .card-name { transform: rotate(-8deg); }
+.card[data-id="5388599"] .card-name { transform: rotate(7deg); }
+.card[data-id="5388618"] .card-name { transform: rotate(-3deg); }
+.card[data-id="5388622"] .card-name { transform: rotate(5deg); }
+.card[data-id="5388665"] .card-name { transform: rotate(-6deg); }
+.card[data-id="5388710"] .card-name { transform: rotate(4deg); }
+.card[data-id="5388792"] .card-name { transform: rotate(-7deg); }
+.card[data-id="5388812"] .card-name { transform: rotate(6deg); }
+.card[data-id="5388814"] .card-name { transform: rotate(-4deg); }
+.card[data-id="5388823"] .card-name { transform: rotate(5deg); }
+.card[data-id="5388833"] .card-name { transform: rotate(-8deg); }
+.card[data-id="5388847"] .card-name { transform: rotate(7deg); }
+.card[data-id="5388984"] .card-name { transform: rotate(-5deg); }
+.card[data-id="5389032"] .card-name { transform: rotate(4deg); }
 
 .card-stats {
   display: flex;
@@ -314,7 +309,7 @@ footer p {
     font-size: 2em;
   }
   
-  .card-name a {
+  .card-name {
     font-size: 2em;
   }
 }
