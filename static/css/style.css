@@ -63,6 +63,19 @@ h2 {
   aspect-ratio: 1.6 / 1;
   perspective: 1000px;
   cursor: pointer;
+  animation: cardEnter 0.8s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+
+/* Card entry animation from random positions */
+@keyframes cardEnter {
+  0% {
+    transform: translate(var(--start-x), var(--start-y)) rotate(var(--start-rotation)) scale(var(--start-scale));
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0, 0) rotate(0deg) scale(1);
+    opacity: 1;
+  }
 }
 
 /* Card Flipper - the rotating element */
@@ -424,5 +437,3 @@ footer p {
     font-size: 0.9em;
   }
 }
-```
-</copilot-edited-file>  
